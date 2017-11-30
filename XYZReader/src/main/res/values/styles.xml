@@ -10,8 +10,7 @@
         <item name="actionBarStyle">@style/MyActionBar</item>
     </style>
 
-    <style name="MyActionBar"
-        parent="@style/Widget.AppCompat.ActionBar.Solid">
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
 
         <item name="android:displayOptions">showHome|useLogo</item>
         <!-- Support library compatibility -->
@@ -21,7 +20,6 @@
         <!-- Support library compatibility -->
         <item name="logo">@drawable/logo</item>
     </style>
-
 
 
 </resources>
