@@ -8,5 +8,6 @@
     <string name="action_share">Share</string>
 
     <string name="up">Up</string>
+    <string name="data_refreshed">The list has been refreshed</string>
 
 </resources>

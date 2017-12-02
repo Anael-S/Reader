@@ -16,6 +16,7 @@
             <ImageView
                 android:id="@+id/photo"
                 android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -73,7 +74,6 @@
                     android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
                     android:paddingBottom="@dimen/detail_body_bottom_margin"
                     android:textColor="@color/black"
-                    android:textColorLink="@color/colorAccent"
                     android:textSize="@dimen/detail_body_text_size" />
 
             </com.example.xyzreader.ui.MaxWidthLinearLayout>
@@ -88,7 +88,6 @@
         android:layout_marginBottom="@dimen/fab_margin"
         android:layout_marginEnd="@dimen/fab_margin"
         android:contentDescription="@string/action_share"
-        android:elevation="@dimen/fab_elevation"
         android:src="@drawable/ic_share"
         app:fabSize="normal"
         app:pressedTranslationZ="@dimen/fab_press_translation_z" />
